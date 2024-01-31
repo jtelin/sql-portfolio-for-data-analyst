@@ -78,7 +78,7 @@ WHERE healthcare_benefits<=1
 ORDER BY Company_Review asc;
 
 #---------------------------------------------------------
-Which idustry has the highest revenue that offers healthcare and the highest paid_time_off_days.
+Which idustry has the highest revenue that offers healthcare.
 
 SELECT company_name, healthcare_benefits, paid_time_off_days, MAX(revenue) AS highest_revenue , industry
 FROM fortune_companies
